@@ -13,10 +13,15 @@
 
 - ERWEITERUNG: Dateneingabemöglichkeiten recherchieren (POST/GET Variablen mittels HTML Formularen)
 # Lösung
-
+- Eine Test PHP Datei, auf das htdocs Verzeichnis kopieren und tester.
 ![Picture not found](./images/PHP-Test.png)
 
 ![Picture not found](./images/PHP-Apache-Test.png)
+
+- Die Tanfüllung Aufgabe.
+![Picture not found](./images/TankCode.png)
+
+![Picture not found](./images/TankAnzeige.png)
 
 ## Fragen
 
