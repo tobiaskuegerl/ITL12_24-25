@@ -14,7 +14,7 @@
 
 # Lösung
 
-![Picture not found](./Images/PHPInfo.png)
+![Picture not found](./images/PHPVersion.png)
 
 ## Fragen
 
@@ -35,11 +35,11 @@
 - Session-Hijacking: Diebstahl von Sitzungsdaten.
 - DoS: Überlastung des Servers.
 ### Maßnahmen zum Schutz
-- HTTPS: Verschlüsselte Datenübertragung.
-- Prepared Statements: Schutz vor SQL Injections.
-- Validierung: Eingaben server- und clientseitig prüfen.
-- Multifaktor-Authentifizierung: Zusätzliche Sicherheitsstufe.
-- Updates: Regelmäßiges Aktualisieren von Software.
+- Verschlüsselung: Einsatz von HTTPS (TLS/SSL) für sichere Datenübertragung.
+- Authentifizierung: Nutzung von Multifaktor-Authentifizierung (MFA).
+- Eingabesicherung: Input-Sanitizing und parametrisierte Queries gegen SQL-Injection.
+- Zugriffsbeschränkung: Prinzip der minimalen Rechte und Rate Limiting.
+- Updates: Regelmäßige Aktualisierung von Software und Bibliotheken.
 
 ```php
 <?php
