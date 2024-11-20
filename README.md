@@ -17,9 +17,13 @@
 ![Picture not found](./images/PHP-Test.png)
 ![Picture not found](./images/PHP-Apache-Test.png)
 
-- Die Tanfüllung Aufgabe.
+- Die Tankfüllung Aufgabe.
 ![Picture not found](./images/TankCode.png)
 ![Picture not found](./images/TankAnzeige.png)
+
+- Die Tankfüllung Aufgabe erweiter, Benutzer Eingabe
+![Picture not found](./images/TankCodeErweiter.png)
+![Picture not found](./images/TankAnzeigeErweiter.png)
 
 ## Fragen
 
