@@ -20,7 +20,6 @@
 
 - Die Tanfüllung Aufgabe.
 ![Picture not found](./images/TankCode.png)
-
 ![Picture not found](./images/TankAnzeige.png)
 
 ## Fragen
