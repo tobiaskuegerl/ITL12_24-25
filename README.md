@@ -40,9 +40,3 @@
 - Eingabesicherung: Input-Sanitizing und parametrisierte Queries gegen SQL-Injection.
 - Zugriffsbeschränkung: Prinzip der minimalen Rechte und Rate Limiting.
 - Updates: Regelmäßige Aktualisierung von Software und Bibliotheken.
-
-```php
-<?php
-    phpinfo();
-?>
-```
