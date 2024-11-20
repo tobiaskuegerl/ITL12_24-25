@@ -1,4 +1,4 @@
-﻿# 1. Übung - Einführung
+﻿# 2. Übung - erste PHP Applikation
 ### Schuljahr 24/25
 ### Lehrgang 2
 ### Übungstag 20.11.2024
