@@ -15,7 +15,6 @@
 # Lösung
 - Eine Test PHP Datei, auf das htdocs Verzeichnis kopieren und tester.
 ![Picture not found](./images/PHP-Test.png)
-
 ![Picture not found](./images/PHP-Apache-Test.png)
 
 - Die Tanfüllung Aufgabe.
