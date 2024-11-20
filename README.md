@@ -13,7 +13,7 @@
 
 - ERWEITERUNG: Dateneingabemöglichkeiten recherchieren (POST/GET Variablen mittels HTML Formularen)
 # Lösung
-- Eine Test PHP Datei, auf das htdocs Verzeichnis kopieren und tester.
+- Eine Test PHP Datei, auf das htdocs Verzeichnis kopieren und testen.
 ![Picture not found](./images/PHP-Test.png)
 ![Picture not found](./images/PHP-Apache-Test.png)
 
