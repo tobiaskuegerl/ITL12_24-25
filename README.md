@@ -23,25 +23,32 @@
 
 ## Fragen
 
-### Kommunikationsablauf – Webserver und Client/Browser
-- Anfrage: Der Browser sendet eine HTTP(S)-Anfrage an den Webserver.
-- Verarbeitung: Der Webserver bearbeitet die Anfrage und leitet sie ggf. an PHP/Datenbank weiter.
-- Antwort: Der Server liefert die generierte HTML-/JSON-Antwort zurück.
-- Anzeige: Der Browser rendert die Inhalte für den Nutzer.
-### Installation der Entwicklungsumgebung
-- Webserver: Installiere Apache, Nginx oder XAMPP/WAMP/MAMP.
-- PHP: Installiere PHP und teste mit phpinfo().
-- Datenbank: Nutze MySQL/MariaDB (z. B. über phpMyAdmin).
-- Editor: Verwende Visual Studio Code, PhpStorm oder Sublime Text.
-### Sicherheitsrisiken von Webanwendungen
-- Phishing: Falsche Webseiten täuschen Nutzer.
-- SQL Injections: Manipulation der Datenbank durch unsichere Eingaben.
-- XSS: Einfügen von schädlichem JavaScript.
-- Session-Hijacking: Diebstahl von Sitzungsdaten.
-- DoS: Überlastung des Servers.
-### Maßnahmen zum Schutz
-- Verschlüsselung: Einsatz von HTTPS (TLS/SSL) für sichere Datenübertragung.
-- Authentifizierung: Nutzung von Multifaktor-Authentifizierung (MFA).
-- Eingabesicherung: Input-Sanitizing und parametrisierte Queries gegen SQL-Injection.
-- Zugriffsbeschränkung: Prinzip der minimalen Rechte und Rate Limiting.
-- Updates: Regelmäßige Aktualisierung von Software und Bibliotheken.
+### Welche Informationen liefert die Funktion phpinfo();
+- PHP-Version: Aktuell installierte PHP-Version.
+- Konfigurationsdetails: Informationen zu den in PHP aktiven Konfigurationsoptionen und Direktiven (php.ini).
+- Installierte Module und Erweiterungen: Liste aller geladenen PHP-Erweiterungen (z. B. mysqli, gd, curl).
+- Server-Details: Angaben zur Server-Software, Betriebssystem und Pfaden.
+- Umgebungsvariablen: Informationen zu Umgebungsvariablen und Servervariablen.
+- Kompilierungsoptionen: Angaben, mit welchen Optionen PHP kompiliert wurde.
+
+### **PHP.ini Einstellungen und ihre Funktionen**
+
+#### **PHP-Fehler ausgeben**
+- **Direktive:** `display_errors`
+- **Funktion:** Steuert, ob PHP-Fehler im Browser angezeigt werden.  
+  - `On`: Fehler werden angezeigt (für Entwicklung).  
+  - `Off`: Fehler werden unterdrückt (für Produktion empfohlen).
+
+#### **Speichernutzung und Laufzeit limitieren**
+- **Direktiven:**
+  - `max_execution_time`: Begrenzt Skript-Laufzeit (z. B. `30` für 30 Sek.).  
+  - `memory_limit`: Begrenzt den Speicherverbrauch (z. B. `128M` für 128 MB).  
+- **Funktion:** Verhindert übermäßigen Ressourcenverbrauch.
+
+#### **allow_url_fopen = off**
+- **Funktion:** Verhindert, dass Funktionen wie `fopen()` oder `file_get_contents()` externe URLs laden können.  
+- **Sicherheitsaspekt:** Schutz vor Remote File Inclusion (RFI).
+
+#### **session.auto_start = off**
+- **Funktion:** Deaktiviert das automatische Starten von Sessions.  
+- **Empfehlung:** Sessions manuell mit `session_start()` starten für mehr Kontrolle.
