@@ -21,9 +21,11 @@
 ![Picture not found](./images/TankCode.png)
 ![Picture not found](./images/TankAnzeige.png)
 
-- Die Tankfüllung Aufgabe erweiter, Benutzer Eingabe
+- Die Tankfüllung Aufgabe Erweiterung, Benutzer Eingabe
 ![Picture not found](./images/TankCodeErweiter.png)
 ![Picture not found](./images/TankAnzeigeErweiter.png)
+  #### Fehlermeldung
+  ![Picture not found](./images/TankAnzeigeErweiterFehler.png)
 
 ## Fragen
 
