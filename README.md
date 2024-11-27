@@ -16,10 +16,10 @@ Primzahlenberechnung:
 -	Gib jeweils Sterne in einer Zeile für jedes Ergebnis aus.
 
 # Lösung
-- Primzahlberechnung
+- Primzahlberechnung: <br>
 ![Picture not found](./images/img_1.png)
 ![Picture not found](./images/img.png)
 
-- 2. Übung
+- Ausgabe Logarithmischen Funktion: 
 ![Picture not found](./images/img_2.png)
 ![Picture not found](./images/img_3.png)
